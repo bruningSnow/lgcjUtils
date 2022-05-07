@@ -7,7 +7,7 @@ import { arrayFilterRepeat } from 'lgcjUtils';
 export default () => (
   <div>
     <div>
-      [1, 2, 3]：
+      [1, [[2], 2]]：
       {JSON.stringify(arrayFilterRepeat({ list: [1, [[2], 2]], isFlat: true }))}
     </div>
   </div>
