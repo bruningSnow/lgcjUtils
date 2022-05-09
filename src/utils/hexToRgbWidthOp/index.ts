@@ -21,9 +21,9 @@ const repairHex = (hex: string) => {
 };
 
 /**
- * @description hex（十六进制） 转成 十进制 【parseInt】
- * @param hexColor
- * @param opacity
+ * @description hex（十六进制） 转成 十进制 ragb 【parseInt】
+ * @param hexColor 十六进制色值 #fff/#ffffff
+ * @param opacity 透明度
  * @returns
  */
 const hexToRgbWidthOp: THexToRgbWidthOp = (params) => {

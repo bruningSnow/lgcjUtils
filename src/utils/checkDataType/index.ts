@@ -21,7 +21,8 @@ export type TCheckDataType = (params: checkDataTypeProps) => boolean;
 
 /**
  * @description 检测数据类型是否与输入类型一致
- * @param params 检测数据及类型
+ * @param data 检测数据
+ * @param type 检测数据类型
  * @returns
  */
 const checkDataType: TCheckDataType = (params) => {
