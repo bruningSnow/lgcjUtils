@@ -17,30 +17,30 @@ export type TMapObjectType = (params: mapObjectTypeProps) => any;
  */
 const mapObject: TMapObjectType = (params) => {
   const { data, isDeep = false, cb } = params;
-  let result: Record<string, any> = {};
-
-  if (checkDataType({ data, type: 'Object' })) {
-    if (isDeep) {
-      Object.keys(data).map((key: string) => {
-        const currentValue = data[key];
-
-        if (checkDataType({ data: currentValue, type: 'Object' })) {
-          result[key] = mapObject({ ...params, data: currentValue });
-        } else {
-          result[key] = cb ? cb(currentValue) : currentValue;
-        }
-      });
-    } else {
-      Object.keys(data).map((key: string) => {
-        const currentValue = data[key];
-
-        result[key] = cb ? cb(currentValue) : currentValue;
-      });
-    }
-    return result;
+  if (!checkDataType({ data, type: 'Object' })) {
+    return data;
   }
 
-  return data;
+  let result: Record<string, any> = {};
+
+  if (isDeep) {
+    Object.keys(data).map((key: string) => {
+      const currentValue = data[key];
+
+      if (checkDataType({ data: currentValue, type: 'Object' })) {
+        result[key] = mapObject({ ...params, data: currentValue });
+      } else {
+        result[key] = cb ? cb(currentValue) : currentValue;
+      }
+    });
+  } else {
+    Object.keys(data).map((key: string) => {
+      const currentValue = data[key];
+
+      result[key] = cb ? cb(currentValue) : currentValue;
+    });
+  }
+  return result;
 };
 
 export default mapObject;
