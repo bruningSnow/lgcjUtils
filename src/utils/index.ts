@@ -7,3 +7,5 @@ export { default as mapObject } from './mapObject';
 export { default as debounce } from './debounce';
 export { default as throttle } from './throttle';
 export { default as sleep } from './sleep';
+export { default as openWebview } from './openWebview';
+export { default as downloadCrossDomainImage } from './downloadCrossDomainImage';
