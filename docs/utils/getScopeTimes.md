@@ -12,10 +12,34 @@ import moment from 'moment';
 import { getScopeTimes } from 'lgcjUtils';
 
 export default () => {
-  const [first, end] = getScopeTimes({ type: 'day' });
+  const [first_day, end_day] = getScopeTimes({ type: 'day', i: 2 });
+  const [first_week, end_week] = getScopeTimes({ type: 'week', i: 2 });
+  const [first_month, end_month] = getScopeTimes({ type: 'month', i: 2 });
+  const [first_quarter, end_quarter] = getScopeTimes({ type: 'quarter', i: 2 });
+  const [first_year, end_year] = getScopeTimes({ type: 'year', i: 2 });
+
   return (
     <div>
-      <pre>{moment(first).format('YYYY-MM-DD HH:mm:ss')}</pre>
+      <pre>
+        两天前： {moment(first_day).format('YYYY-MM-DD HH:mm:ss')} -{' '}
+        {moment(end_day).format('YYYY-MM-DD HH:mm:ss')}
+      </pre>
+      <pre>
+        两周前：{moment(first_week).format('YYYY-MM-DD HH:mm:ss')} -{' '}
+        {moment(end_week).format('YYYY-MM-DD HH:mm:ss')}
+      </pre>
+      <pre>
+        两月前：{moment(first_month).format('YYYY-MM-DD HH:mm:ss')} -{' '}
+        {moment(end_month).format('YYYY-MM-DD HH:mm:ss')}
+      </pre>
+      <pre>
+        两季度前：{moment(first_quarter).format('YYYY-MM-DD HH:mm:ss')} -{' '}
+        {moment(end_quarter).format('YYYY-MM-DD HH:mm:ss')}
+      </pre>
+      <pre>
+        两年前：{moment(first_year).format('YYYY-MM-DD HH:mm:ss')} -{' '}
+        {moment(end_year).format('YYYY-MM-DD HH:mm:ss')}
+      </pre>
     </div>
   );
 };
@@ -23,13 +47,19 @@ export default () => {
 
 ## 入参
 
-| 属性 | 说明                             | 类型                        | 默认值 | Version |
-| ---- | -------------------------------- | --------------------------- | ------ | ------- |
-| data | 需要拉平数组                     | any[]                       | -      |         |
-| cb   | 数组拉平遍历时，对单元值改造函数 | (value: any) => any【可选】 | -      |         |
+| 属性 | 说明         | 类型           | 默认值 | Version |
+| ---- | ------------ | -------------- | ------ | ------- |
+| type | 时间区类型   | TType          | -      |         |
+| i    | 前 i ${type} | number【可选】 | 0      |         |
 
 ## 出参
 
-| 属性   | 说明                                                           | 类型 | Version |
-| ------ | -------------------------------------------------------------- | ---- | ------- |
-| result | 返回值为去重后的数组（如果传入值类型为非数组，则不做任何处理） | any  |         |
+| 属性   | 说明           | 类型             | Version |
+| ------ | -------------- | ---------------- | ------- |
+| result | 开始/最后 时间 | [Moment, Moment] |         |
+
+## TType
+
+```
+'day' | 'week' | 'month' | 'quarter' | 'year'
+```
