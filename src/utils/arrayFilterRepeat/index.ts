@@ -19,8 +19,6 @@ export type TArrayFilterRepeat = (params: arrayFilterRepeatProps) => any[];
 const arrayFilterRepeat: TArrayFilterRepeat = (params) => {
   const { data, isFlat, cb } = params;
 
-  console.log(checkDataType({ data, type: 'Array' }));
-
   if (!checkDataType({ data, type: 'Array' })) {
     return data;
   }
