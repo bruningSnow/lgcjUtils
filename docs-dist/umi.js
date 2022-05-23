@@ -40332,7 +40332,7 @@
                 'throttle',
               ),
               a.a.createElement(s['a'], {
-                code: '\u9632\u6296\uff1a\u5728\u7279\u5b9a\u65f6\u95f4\u6bb5\u5185\uff0c\u4ee3\u7801\u6267\u884c\u4e00\u6b21',
+                code: '\u622a\u6d41\uff1a\u5728\u7279\u5b9a\u65f6\u95f4\u6bb5\u5185\uff0c\u4ee3\u7801\u6267\u884c\u4e00\u6b21',
                 lang: 'unknown',
               }),
               a.a.createElement(
@@ -41983,7 +41983,7 @@
               exact: !0,
               meta: {
                 filePath: 'docs/utils/getScopeTimes.md',
-                updatedTime: 1653037067e3,
+                updatedTime: 1653040243e3,
                 slugs: [
                   { depth: 1, value: 'getScopeTimes', heading: 'getscopetimes' },
                   {
