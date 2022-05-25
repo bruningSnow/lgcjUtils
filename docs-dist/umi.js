@@ -52,6 +52,182 @@
     (n.p = '/lgcjUtils/'),
     n((n.s = 0));
 })({
+  '+0/e': function (e, t, n) {
+    'use strict';
+    n.r(t);
+    var r = n('q1tI'),
+      a = n.n(r),
+      i = n('dEAq'),
+      o = n('Zxc8'),
+      u = n('H1Ra'),
+      s = n('dMo/'),
+      l = a.a.memo((e) => {
+        var t = e.demos,
+          n = t['addWaterMark-demo'].component;
+        return a.a.createElement(
+          a.a.Fragment,
+          null,
+          a.a.createElement(
+            a.a.Fragment,
+            null,
+            a.a.createElement(
+              'div',
+              { className: 'markdown' },
+              a.a.createElement(
+                'h1',
+                { id: 'addwatermark' },
+                a.a.createElement(
+                  i['AnchorLink'],
+                  { to: '#addwatermark', 'aria-hidden': 'true', tabIndex: -1 },
+                  a.a.createElement('span', { className: 'icon icon-link' }),
+                ),
+                'addWaterMark',
+              ),
+              a.a.createElement(u['a'], { code: '\u6dfb\u52a0\u6c34\u5370', lang: 'unknown' }),
+              a.a.createElement(
+                'h2',
+                { id: '\u4ee3\u7801\u6f14\u793a' },
+                a.a.createElement(
+                  i['AnchorLink'],
+                  { to: '#\u4ee3\u7801\u6f14\u793a', 'aria-hidden': 'true', tabIndex: -1 },
+                  a.a.createElement('span', { className: 'icon icon-link' }),
+                ),
+                '\u4ee3\u7801\u6f14\u793a:',
+              ),
+            ),
+            a.a.createElement(
+              o['default'],
+              t['addWaterMark-demo'].previewerProps,
+              a.a.createElement(n, null),
+            ),
+            a.a.createElement(
+              'div',
+              { className: 'markdown' },
+              a.a.createElement(
+                'h2',
+                { id: '\u5165\u53c2' },
+                a.a.createElement(
+                  i['AnchorLink'],
+                  { to: '#\u5165\u53c2', 'aria-hidden': 'true', tabIndex: -1 },
+                  a.a.createElement('span', { className: 'icon icon-link' }),
+                ),
+                '\u5165\u53c2',
+              ),
+              a.a.createElement(
+                s['a'],
+                null,
+                a.a.createElement(
+                  'thead',
+                  null,
+                  a.a.createElement(
+                    'tr',
+                    null,
+                    a.a.createElement('th', null, '\u5c5e\u6027'),
+                    a.a.createElement('th', null, '\u8bf4\u660e'),
+                    a.a.createElement('th', null, '\u7c7b\u578b'),
+                    a.a.createElement('th', null, '\u9ed8\u8ba4\u503c'),
+                    a.a.createElement('th', null, 'Version'),
+                  ),
+                ),
+                a.a.createElement(
+                  'tbody',
+                  null,
+                  a.a.createElement(
+                    'tr',
+                    null,
+                    a.a.createElement('td', null, 'content'),
+                    a.a.createElement('td', null, '\u6c34\u5370\u5185\u5bb9'),
+                    a.a.createElement('td', null, 'TContent\u3010\u53ef\u9009\u3011'),
+                    a.a.createElement('td', null, "''"),
+                    a.a.createElement('td', null),
+                  ),
+                  a.a.createElement(
+                    'tr',
+                    null,
+                    a.a.createElement('td', null, 'width'),
+                    a.a.createElement('td', null, '\u6c34\u5370\u5bbd\u5ea6'),
+                    a.a.createElement('td', null, 'string\u3010\u53ef\u9009\u3011'),
+                    a.a.createElement('td', null, "''"),
+                    a.a.createElement('td', null),
+                  ),
+                  a.a.createElement(
+                    'tr',
+                    null,
+                    a.a.createElement('td', null, 'height'),
+                    a.a.createElement('td', null, '\u6c34\u5370\u9ad8\u5ea6'),
+                    a.a.createElement('td', null, 'string\u3010\u53ef\u9009\u3011'),
+                    a.a.createElement('td', null, "''"),
+                    a.a.createElement('td', null),
+                  ),
+                  a.a.createElement(
+                    'tr',
+                    null,
+                    a.a.createElement('td', null, 'textAlign'),
+                    a.a.createElement('td', null, '\u6c34\u5370\u6587\u672c textAlign'),
+                    a.a.createElement(
+                      'td',
+                      null,
+                      "CSSProperties['textAlign']\u3010\u53ef\u9009\u3011",
+                    ),
+                    a.a.createElement('td', null, "''"),
+                    a.a.createElement('td', null),
+                  ),
+                  a.a.createElement(
+                    'tr',
+                    null,
+                    a.a.createElement('td', null, 'font'),
+                    a.a.createElement(
+                      'td',
+                      null,
+                      '\u6c34\u5370\u6587\u672c\u5b57\u4f53\u5927\u5c0f',
+                    ),
+                    a.a.createElement('td', null, 'string\u3010\u53ef\u9009\u3011'),
+                    a.a.createElement('td', null, "''"),
+                    a.a.createElement('td', null),
+                  ),
+                  a.a.createElement(
+                    'tr',
+                    null,
+                    a.a.createElement('td', null, 'fillStyle'),
+                    a.a.createElement('td', null, '\u6c34\u5370\u6587\u672c\u989c\u8272'),
+                    a.a.createElement('td', null, "CSSProperties['color']\u3010\u53ef\u9009\u3011"),
+                    a.a.createElement('td', null, "''"),
+                    a.a.createElement('td', null),
+                  ),
+                ),
+              ),
+              a.a.createElement(
+                'h2',
+                { id: 'tcontent' },
+                a.a.createElement(
+                  i['AnchorLink'],
+                  { to: '#tcontent', 'aria-hidden': 'true', tabIndex: -1 },
+                  a.a.createElement('span', { className: 'icon icon-link' }),
+                ),
+                'TContent',
+              ),
+              a.a.createElement(u['a'], { code: 'string | string[]', lang: 'unknown' }),
+            ),
+          ),
+        );
+      });
+    t['default'] = (e) => {
+      var t = a.a.useContext(i['context']),
+        n = t.demos;
+      return (
+        a.a.useEffect(() => {
+          var t;
+          null !== e &&
+            void 0 !== e &&
+            null !== (t = e.location) &&
+            void 0 !== t &&
+            t.hash &&
+            i['AnchorLink'].scrollToAnchor(decodeURIComponent(e.location.hash.slice(1)));
+        }, []),
+        a.a.createElement(l, { demos: n })
+      );
+    };
+  },
   '+2a4': function (e, t, n) {
     'use strict';
     var r = n('MMxC'),
@@ -778,6 +954,9 @@
       }),
       n.d(t, 'controlApiQueue', function () {
         return U;
+      }),
+      n.d(t, 'addWaterMark', function () {
+        return V;
       });
     var r = (e) => {
         var t = e.replace(/#/, '');
@@ -1135,7 +1314,51 @@
           );
         };
       },
-      U = z;
+      U = z,
+      B = (e) => {
+        var t = e || {},
+          n = t.content,
+          r = void 0 === n ? '' : n,
+          a = t.width,
+          i = void 0 === a ? '300px' : a,
+          o = t.height,
+          u = void 0 === o ? '200px' : o,
+          s = t.textAlign,
+          l = void 0 === s ? 'left' : s,
+          c = t.font,
+          d = void 0 === c ? '15px Microsoft Yahei' : c,
+          f = t.fillStyle,
+          m = void 0 === f ? 'rgba(184, 184, 184, 0.3)' : f,
+          p = document.body,
+          h = document.querySelector('#_watermarkDiv');
+        h && p.removeChild(h);
+        var _ = document.createElement('canvas');
+        _.setAttribute('width', i), _.setAttribute('height', u);
+        var y = _.getContext('2d');
+        (y.textAlign = l),
+          (y.textBaseline = 'middle'),
+          (y.font = d),
+          (y.fillStyle = m),
+          y.rotate((Math.PI / 180) * 335),
+          Array.isArray(r)
+            ? r.forEach((e, t) => {
+                var n = 20 * t - 10;
+                y.fillText(e, 10, parseFloat(u) + n);
+              })
+            : y.fillText(r, 10, parseFloat(u) - 10);
+        var v = _.toDataURL(),
+          g = document.createElement('div'),
+          b =
+            "\n                  position:fixed;\n                  top:0;\n                  left:0;\n                  width:100%;\n                  height:calc(100% - 50px);\n                  z-index:999;\n                  pointer-events:none;\n                  background-repeat:repeat;\n                  background-image:url('".concat(
+              v,
+              "')",
+            );
+        g.setAttribute('style', b),
+          (g.id = '_watermarkDiv'),
+          (p.style.position = 'relative'),
+          p.insertBefore(g, p.firstChild);
+      },
+      V = B;
   },
   '/R3g': function (e, t, n) {
     var r = n('MMxC'),
@@ -29617,6 +29840,62 @@
       i = n.n(a),
       o = n('q3YX'),
       u = {
+        'addWaterMark-demo': {
+          component: function () {
+            var e = n('K+nK'),
+              t = e(n('q1tI')),
+              r = n('/7QA'),
+              a = function () {
+                return t['default'].createElement(
+                  'div',
+                  null,
+                  t['default'].createElement(
+                    'pre',
+                    null,
+                    t['default'].createElement(
+                      'button',
+                      {
+                        onClick: function () {
+                          return (0, r.addWaterMark)({
+                            content: '\u6c34\u53701\u6c34\u53701\u6c34\u53701',
+                          });
+                        },
+                      },
+                      '\u5355\u884c\u5185\u5bb9',
+                    ),
+                  ),
+                  t['default'].createElement(
+                    'pre',
+                    null,
+                    t['default'].createElement(
+                      'button',
+                      {
+                        onClick: function () {
+                          return (0, r.addWaterMark)({
+                            content: [
+                              '\u6c34\u53701\u6c34\u53701\u6c34\u53701',
+                              '\u6c34\u53702\u6c34\u53702\u6c34\u53702',
+                            ],
+                          });
+                        },
+                      },
+                      '\u6362\u884c\u5185\u5bb9',
+                    ),
+                  ),
+                );
+              };
+            return t['default'].createElement(a);
+          },
+          previewerProps: {
+            sources: {
+              _: {
+                tsx: "import React, { useState } from 'react';\nimport { addWaterMark } from 'lgcjUtils';\n\nexport default () => {\n  return (\n    <div>\n      <pre>\n        <button onClick={() => addWaterMark({ content: '\u6c34\u53701\u6c34\u53701\u6c34\u53701' })}>\u5355\u884c\u5185\u5bb9</button>\n      </pre>\n      <pre>\n        <button onClick={() => addWaterMark({ content: ['\u6c34\u53701\u6c34\u53701\u6c34\u53701', '\u6c34\u53702\u6c34\u53702\u6c34\u53702'] })}>\n          \u6362\u884c\u5185\u5bb9\n        </button>\n      </pre>\n    </div>\n  );\n};",
+              },
+            },
+            dependencies: { react: { version: '17.0.2' }, lgcjUtils: { version: '1.0.0' } },
+            identifier: 'addWaterMark-demo',
+          },
+        },
         'arrayFilterRepeat-demo': {
           component: function () {
             var e = n('K+nK'),
@@ -38982,7 +39261,7 @@
   },
   q3YX: function (e) {
     e.exports = JSON.parse(
-      '{"menus":{"en-US":{"*":[{"path":"/","title":"Hello lgcjUtil","meta":{}},{"title":"Utils","path":"/utils","meta":{},"children":[{"path":"/utils/array-filter-repeat","title":"arrayFilterRepeat","meta":{}},{"path":"/utils/array-flat","title":"arrayFlat","meta":{}},{"path":"/utils/check-data-type","title":"checkDataType","meta":{}},{"path":"/utils/control-api-queue","title":"controlApiQueue","meta":{}},{"path":"/utils/debounce","title":"debounce","meta":{}},{"path":"/utils/download-cross-domain-image","title":"downloadCrossDomainImage","meta":{}},{"path":"/utils/get-scope-times","title":"getScopeTimes","meta":{}},{"path":"/utils/hex-to-rgb-width-op","title":"hexToRgbWidthOp","meta":{}},{"path":"/utils/map-object","title":"mapObject","meta":{}},{"path":"/utils/open-webview","title":"openWebview","meta":{}},{"path":"/utils/random-color-by-string","title":"randomColorByString","meta":{}},{"path":"/utils/sleep","title":"sleep","meta":{}},{"path":"/utils/throttle","title":"throttle","meta":{}}]}]}},"locales":[{"name":"en-US","label":"English"}],"navs":{},"title":"lgcjUtils","logo":"https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png","mode":"doc","repository":{"url":"","branch":"master"},"theme":{},"exportStatic":{}}',
+      '{"menus":{"en-US":{"*":[{"path":"/","title":"Hello lgcjUtil","meta":{}},{"title":"Utils","path":"/utils","meta":{},"children":[{"path":"/utils/add-water-mark","title":"addWaterMark","meta":{}},{"path":"/utils/array-filter-repeat","title":"arrayFilterRepeat","meta":{}},{"path":"/utils/array-flat","title":"arrayFlat","meta":{}},{"path":"/utils/check-data-type","title":"checkDataType","meta":{}},{"path":"/utils/control-api-queue","title":"controlApiQueue","meta":{}},{"path":"/utils/debounce","title":"debounce","meta":{}},{"path":"/utils/download-cross-domain-image","title":"downloadCrossDomainImage","meta":{}},{"path":"/utils/get-scope-times","title":"getScopeTimes","meta":{}},{"path":"/utils/hex-to-rgb-width-op","title":"hexToRgbWidthOp","meta":{}},{"path":"/utils/map-object","title":"mapObject","meta":{}},{"path":"/utils/open-webview","title":"openWebview","meta":{}},{"path":"/utils/random-color-by-string","title":"randomColorByString","meta":{}},{"path":"/utils/sleep","title":"sleep","meta":{}},{"path":"/utils/throttle","title":"throttle","meta":{}}]}]}},"locales":[{"name":"en-US","label":"English"}],"navs":{},"title":"lgcjUtils","logo":"https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png","mode":"doc","repository":{"url":"","branch":"master"},"theme":{},"exportStatic":{}}',
     );
   },
   qA1w: function (e, t, n) {
@@ -42006,6 +42285,29 @@
               title: 'Hello lgcjUtil - lgcjUtils',
             },
             {
+              path: '/utils/add-water-mark',
+              component: n('+0/e').default,
+              exact: !0,
+              meta: {
+                filePath: 'docs/utils/addWaterMark.md',
+                updatedTime: 1653447844e3,
+                slugs: [
+                  { depth: 1, value: 'addWaterMark', heading: 'addwatermark' },
+                  {
+                    depth: 2,
+                    value: '\u4ee3\u7801\u6f14\u793a:',
+                    heading: '\u4ee3\u7801\u6f14\u793a',
+                  },
+                  { depth: 2, value: '\u5165\u53c2', heading: '\u5165\u53c2' },
+                  { depth: 2, value: 'TContent', heading: 'tcontent' },
+                ],
+                title: 'addWaterMark',
+                hasPreviewer: !0,
+                group: { path: '/utils', title: 'Utils' },
+              },
+              title: 'addWaterMark - lgcjUtils',
+            },
+            {
               path: '/utils/array-filter-repeat',
               component: n('tCBZ').default,
               exact: !0,
@@ -42310,7 +42612,7 @@
               },
               title: 'throttle - lgcjUtils',
             },
-            { path: '/utils', meta: {}, exact: !0, redirect: '/utils/array-filter-repeat' },
+            { path: '/utils', meta: {}, exact: !0, redirect: '/utils/add-water-mark' },
           ],
           title: 'lgcjUtils',
           component: (e) => e.children,
