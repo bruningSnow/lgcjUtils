@@ -11,3 +11,4 @@ export { default as openWebview } from './openWebview';
 export { default as downloadCrossDomainImage } from './downloadCrossDomainImage';
 export { default as getScopeTimes } from './getScopeTimes';
 export { default as controlApiQueue } from './controlApiQueue';
+export { default as addWaterMark } from './addWaterMark';
