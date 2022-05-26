@@ -40758,7 +40758,7 @@
                 'throttle',
               ),
               a.a.createElement(u['a'], {
-                code: '\u622a\u6d41\uff1a\u5728\u7279\u5b9a\u65f6\u95f4\u6bb5\u5185\uff0c\u4ee3\u7801\u6267\u884c\u4e00\u6b21',
+                code: '\u8282\u6d41\uff1a\u5728\u7279\u5b9a\u65f6\u95f4\u6bb5\u5185\uff0c\u4ee3\u7801\u6267\u884c\u4e00\u6b21',
                 lang: 'unknown',
               }),
               a.a.createElement(
