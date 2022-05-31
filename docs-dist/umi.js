@@ -83,7 +83,10 @@
                 ),
                 'addWaterMark',
               ),
-              a.a.createElement(u['a'], { code: '\u6dfb\u52a0\u6c34\u5370', lang: 'unknown' }),
+              a.a.createElement(u['a'], {
+                code: '\u6dfb\u52a0\u6c34\u5370\n\u6c34\u5370\u4e00\u822c\u5206\u4e3a \u660e\u6c34\u5370 \u548c \u6697\u6c34\u5370\n\u660e\u6c34\u5370\uff1a\u8089\u773c\u53ef\u89c1\n\u6697\u6c34\u5370\uff1a\u8089\u773c\u4e0d\u53ef\u89c1\uff0c\u4f46\u662f\u7528 ps \uff08\u7c7b\u540c\uff09\u8f6f\u4ef6\u8c03\u6574\u8272\u9636\u53ef\u4ee5\u770b\u89c1\u6c34\u5370\n\u4f5c\u7528\uff1a\u53ef\u4ee5\u5728\u65e5\u5e38\u5de5\u4f5c\u4e2d\u5bf9\u5458\u5de5\u8d77\u5230\u63d0\u9192\u548c\u8b66\u793a\u4f5c\u7528',
+                lang: 'unknown',
+              }),
               a.a.createElement(
                 'h2',
                 { id: '\u4ee3\u7801\u6f14\u793a' },
@@ -42290,7 +42293,7 @@
               exact: !0,
               meta: {
                 filePath: 'docs/utils/addWaterMark.md',
-                updatedTime: 1653447844e3,
+                updatedTime: 1653988006e3,
                 slugs: [
                   { depth: 1, value: 'addWaterMark', heading: 'addwatermark' },
                   {
@@ -42595,7 +42598,7 @@
               exact: !0,
               meta: {
                 filePath: 'docs/utils/throttle.md',
-                updatedTime: 1653272893e3,
+                updatedTime: 1653536833e3,
                 slugs: [
                   { depth: 1, value: 'throttle', heading: 'throttle' },
                   {
